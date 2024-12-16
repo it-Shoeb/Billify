@@ -3,7 +3,7 @@ import "./billCreate.css";
 import Navbar from "../../components/Navbar";
 
 import { Link } from "react-router-dom";
-import ICONS from "../../components/assets";
+// import ICONS from "../../components/Assets.jsx";
 
 export default function BillCreate() {
   const handleForm = (e) => {
@@ -64,7 +64,7 @@ export default function BillCreate() {
                             <input placeholder="Amount" type="number" />
                             <Link>
                               <img
-                                src={ICONS.deletes}
+                                // src={ICONS.deletes}
                                 onClick={console.log("delete")}
                                 className="form-particulars-delete"
                                 alt=""

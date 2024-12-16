@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 import { Link } from "react-router-dom";
 
 import data from "../../data/data.json";
-import ICONS from "../../components/assets";
+// import ICONS from "../../components/assets";
 
 export default function Billing() {
   const [currentdate, setCurrentDate] = useState(
@@ -39,7 +39,7 @@ export default function Billing() {
                 <div className="cta-last7days">last 7 days</div>
                 <label htmlFor="" className="billing-search">
                   <input type="search" name="" id="" />{" "}
-                  <img src={ICONS.search} alt="" />
+                  {/* <img src={ICONS.search} alt="" /> */}
                 </label>
               </form>
             </div>
@@ -47,15 +47,15 @@ export default function Billing() {
             <div className="billing-filter-bar-rhs">
               <div className="billing-cta-container">
                 <div className="billing-export-cta">
-                  <img src={ICONS.exports} alt="" />
+                  {/* <img src={ICONS.exports} alt="" /> */}
                   Export
                 </div>
                 <div className="billing-filter-cta">
-                  <img src={ICONS.filter} alt="" />
+                  {/* <img src={ICONS.filter} alt="" /> */}
                   Filter
                 </div>
                 <Link to={"/billing/create"} className="billing-Create-cta cta">
-                  <img src={ICONS.add} alt="" />
+                  {/* <img src={ICONS.add} alt="" /> */}
                   Create
                 </Link>
               </div>

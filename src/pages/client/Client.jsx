@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 
 import data from "../../data/data.json";
-import ICONS from "../../components/assets";
+// import ICONS from "../../components/assets";
 
 export default function Client() {
   return (
@@ -23,12 +23,12 @@ export default function Client() {
                   placeholder="search client"
                 />
                 <Link>
-                  <img src={ICONS.search} alt="" />
+                  {/* <img src={ICONS.search} alt="" /> */}
                 </Link>
               </label>
 
               <Link to={'/client/create'} className="client-filter-bar-cta cta">
-                <img src={ICONS.add} alt="" />
+                {/* <img src={ICONS.add} alt="" /> */}
                 Create Client
               </Link>
             </form>

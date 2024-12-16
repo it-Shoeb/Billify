@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 import product from "../../data/product.json";
-import ICONS from "../../components/assets";
+// import ICONS from "../../components/assets";
 
 export default function Product() {
   return (
@@ -26,7 +26,7 @@ export default function Product() {
                 />
                 <Link>
                   {" "}
-                  <img src={ICONS.search} alt="" />
+                  {/* <img src={ICONS.search} alt="" /> */}
                 </Link>
               </label>
 
@@ -34,7 +34,7 @@ export default function Product() {
                 to={"/product/create"}
                 className="product-filter-bar-cta cta"
               >
-                <img src={ICONS.add} alt="" />
+                {/* <img src={ICONS.add} alt="" /> */}
                 Create Product
               </Link>
             </form>
