@@ -1,0 +1,133 @@
+.billCreate-container {
+  display: flex;
+  gap: var(--form-gap-md);
+  height: 100vh;
+}
+
+.billCreate-container-lhs {
+    flex:1;
+    /* border: solid 1px; */
+    border-radius: var(--radius);
+}
+
+.billCreate-container-lhs-container form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--form-gap-md);
+    padding: var(--input-pad-md);
+}
+
+.billCreate-container-lhs-container-split {
+    display: flex;
+    gap: var(--form-gap-md);
+}
+
+.billCreate-container-lhs-container-split > * {
+    flex: 1;
+}
+
+.billCreate-container-lhs-container-split select{
+    border-radius: 1rem;
+}
+
+.billCreate-container-lhs-container form input {
+    padding: var(--form-gap-sm);
+}
+
+.billCreate-container-rhs {
+    flex:1;
+    border: solid 1px;
+    border-radius: var(--radius);
+}
+
+input.cta {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    gap: var(--form-gap-sm);
+    border-radius: var(--radius);
+    color: white;
+    background-color: var(--tertiary);
+    transition: ease-in .3s;
+  }
+  
+  .billCreate-add-more-cta{
+    color: blue;
+    font-weight: 400;
+    outline: none;
+  }
+
+  .billCreate-add-more-cta:focus,
+  .billCreate-add-more-cta:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  input.cta:hover {
+    background-color: var(--hover-tertiary);
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .form-particulars-container-table .particular-details-delete{
+      display: flex;
+      gap: var(--form-gap-md);  
+      align-items: center;
+  }
+
+
+  .form-particulars-container-table{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .billCreate-container {
+        flex-direction: column;
+    }
+    
+    .billCreate-container-lhs {
+        flex: 1;
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    
+    .billCreate-container-lhs-container-split {
+        flex-direction: column;
+    }
+    
+    .billCreate-container-rhs {
+        flex: 1;
+        display: none;
+        width: 100%;
+    }
+    
+    .form-particulars-container-table th{
+        display: none;
+    }
+    
+    .form-particulars-container-table td{
+        display: block;
+    }
+
+    .form-particulars-container-table td div{
+        display: flex;
+        gap: var(--form-gap-md);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+
+    .form-particulars-container-table input{
+        width: 100%;
+    }
+
+    .billCreate-container-lhs-container-split select{
+        padding: var(--input-pad-sm);
+    }
+
+    .billCreate-container-lhs-container form input {
+        padding: .5rem;
+        border-radius: var(--radius);
+    }
+}

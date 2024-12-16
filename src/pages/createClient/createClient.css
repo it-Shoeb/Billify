@@ -1,0 +1,72 @@
+.createClient-form {
+  flex-grow: 1;
+  background-color: var(--primary);
+}
+.createClient-form form {
+  display: flex;
+  gap: var(--form-gap-md);
+  height: 100%;
+  padding: 1rem;
+}
+
+.createClient-form .createClient-form-lhs {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: solid 1px;
+}
+
+.createClient-form .createClient-form-lhs a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.createClient-form .createClient-form-lhs a:hover {
+  opacity: 0.8;
+}
+
+.createClient-form .createClient-form-rhs {
+  flex: 3;
+}
+
+.createClient-form-rhs-input-fields{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.createClient-form-rhs-input-fields label{
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    gap: var(--form-gap-sm);
+}
+
+.createClient-form-rhs-input-fields input{
+    padding: .6rem .7rem;
+    outline: none;
+    border-radius: var(--radius);
+    border: none;
+    background-color: var(--secondary);
+}
+
+.createClient-form-rhs-cta-container {
+  display: flex;
+  align-items: center;
+  gap: var(--form-gap-md);
+  justify-content: end;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .createClient-form form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .createClient-form .createClient-form-lhs a {
+    width: 40%;
+  }
+}

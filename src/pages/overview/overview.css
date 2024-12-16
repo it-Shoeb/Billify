@@ -1,0 +1,68 @@
+.overview-container {
+  border-radius: var(--radius);
+  background-color: var(--primary);
+  padding: 1rem;
+  display: flex;
+  flex-grow: 1;
+  gap: var(--form-gap-md);
+}
+
+.overview-lhs.table-container {
+  position: relative;
+  flex: 1;
+  border-radius: var(--radius);
+  padding: var(--input-pad-md);
+}
+
+.overview-rhs {
+  flex: 1;
+  background-color: var(--secondary);
+  border-radius: var(--radius);
+  padding: var(--input-pad-md);
+}
+
+.overview-lhs-table {
+  width: 100%;
+  padding: var(--input-pad-sm);
+  border-collapse: collapse;
+  border-radius: var(--radius);
+}
+
+caption {
+  margin-bottom: 0.5rem;
+}
+
+.overview-lhs-table th {
+  text-align: left;
+}
+
+.overview-lhs-viewMore {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-block: 0.5rem;
+  opacity: 0.8;
+  background: linear-gradient(white, skyblue);
+  width: 100%;
+  color: rgb(29, 113, 141);
+  text-align: center;
+  display: none;
+  transition: 0.5s;
+}
+.overview-lhs-viewMore:hover {
+  background: linear-gradient(white, rgb(85, 182, 221));
+  color: rgb(39, 94, 116);
+}
+
+@media screen and (max-width: 768px) {
+  
+
+  .overview-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+}

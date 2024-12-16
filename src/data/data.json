@@ -1,0 +1,91 @@
+[
+  {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "amount": 1500.75,
+    "contact": "+1234567890",
+    "client_id": "C12345",
+    "address": "123 Main St, Springfield, USA",
+    "dob": "1990-05-15",
+    "is_active": true,
+    "signup_date": "2022-01-01"
+  },
+  {
+    "username": "jane_smith",
+    "email": "jane.smith@example.com",
+    "amount": 2300.5,
+    "contact": "+1987654321",
+    "client_id": "C12346",
+    "address": "456 Elm St, Rivertown, USA",
+    "dob": "1985-08-22",
+    "is_active": false,
+    "signup_date": "2021-09-15"
+  },
+  {
+    "username": "mike_jones",
+    "email": "mike.jones@example.com",
+    "amount": 320.1,
+    "contact": "+1122334455",
+    "client_id": "C12347",
+    "address": "789 Oak St, Lakeview, USA",
+    "dob": "1993-02-10",
+    "is_active": true,
+    "signup_date": "2023-03-20"
+  },
+  {
+    "username": "jane_smith",
+    "email": "jane.smith@example.com",
+    "amount": 2200.5,
+    "contact": "+9876543210",
+    "client_id": "C67890",
+    "address": "456 Oak Ave, Metropolis, USA",
+    "dob": "1985-11-23",
+    "is_active": false,
+    "signup_date": "2023-04-15"
+  },
+  {
+    "username": "michael_jones",
+    "email": "michael.jones@example.com",
+    "amount": 3400.0,
+    "contact": "+1122334455",
+    "client_id": "C54321",
+    "address": "789 Pine Rd, Gotham, USA",
+    "dob": "1992-02-10",
+    "is_active": true,
+    "signup_date": "2021-09-22"
+  },
+  {
+    "username": "emily_wilson",
+    "email": "emily.wilson@example.com",
+    "amount": 1200.8,
+    "contact": "+3344556677",
+    "client_id": "C99887",
+    "address": "321 Birch St, Rivertown, USA",
+    "dob": "1995-07-05",
+    "is_active": true,
+    "signup_date": "2020-03-13"
+  },
+
+  {
+    "username": "alex_brown",
+    "email": "alex.brown@example.com",
+    "amount": 500.3,
+    "contact": "+4455667788",
+    "client_id": "C11223",
+    "address": "654 Cedar Blvd, Smalltown, USA",
+    "dob": "1988-12-17",
+    "is_active": false,
+    "signup_date": "2022-11-09"
+  },
+  {
+    "username": "sophia_taylor",
+    "email": "sophia.taylor@example.com",
+    "amount": 4300.6,
+    "contact": "+5566778899",
+    "client_id": "C77665",
+    "address": "987 Maple Ln, Hillside, USA",
+    "dob": "1993-04-25",
+    "is_active": true,
+    "signup_date": "2023-02-28"
+  }
+]

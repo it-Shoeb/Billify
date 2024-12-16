@@ -1,0 +1,122 @@
+.billing-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.billing-filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="date"] {
+  border-radius: var(--form-gap-md);
+  padding: 0.2rem 0.4rem;
+  border: solid 1px;
+}
+
+.cta-last7days{
+  border-radius: var(--form-gap-md);
+  padding: 0.3rem 0.8rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--primary);
+}
+
+.billing-filter-bar hr {
+  height: 1rem;
+}
+
+.billing-filter-bar-rhs .billing-cta-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--form-gap-md);
+}
+
+.billing-table-container {
+  flex-grow: 1;
+  margin-top: 0.5rem;
+  padding: var(--input-pad-md);
+  border: solid var(--primary) 1rem;
+}
+
+.table-container table {
+  background-color: var(--secondary);
+  width: 100%;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+.billing-cta-container > * {
+  display: flex;
+  align-items: center;
+  gap: var(--form-gap-sm);
+}
+
+.billing-search input{
+  flex-grow: 1;
+}
+
+.billing-search {
+  display: flex;
+  align-items: center;
+  gap: var(--form-gap-sm);
+  border-radius: 2rem;
+  padding: 0.2rem 0.6rem;
+  background-color: none;
+  border: solid 1px;
+}
+
+.billing-search input {
+  border: none;
+  outline: none;
+}
+
+.billing-filter-bar-lhs form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  gap: var(--form-gap-sm);
+}
+
+.billing-filter-bar-lhs form > *{
+  flex-grow: 1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .billing-filter-bar {
+    flex-direction: column;
+    gap: var(--form-gap-md);
+  }
+  
+  .billing-filter-bar hr{
+    display: none;
+  }
+
+  .billing-filter-bar-rhs{
+    width: 100%;
+  }
+
+  .billing-filter-bar-lhs{
+    width: 100%;
+  }
+
+  .billing-filter-bar-rhs .billing-cta-container {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+  }
+  
+  .billing-filter-bar-rhs .billing-cta-container > * {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+}

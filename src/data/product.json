@@ -1,0 +1,38 @@
+[
+    {
+      "product_id": "P1001",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "description": "A high-precision wireless mouse with ergonomic design.",
+      "price": 29.99,
+      "release_date": "2023-06-15",
+      "images": [
+        "https://example.com/images/wireless-mouse-1.jpg",
+        "https://example.com/images/wireless-mouse-2.jpg"
+      ]
+    },
+    {
+      "product_id": "P1002",
+      "name": "Bluetooth Headphones",
+      "category": "Electronics",
+      "description": "Noise-canceling Bluetooth headphones with long battery life.",
+      "price": 89.99,
+      "release_date": "2023-09-20",
+      "images": [
+        "https://example.com/images/bluetooth-headphones-1.jpg",
+        "https://example.com/images/bluetooth-headphones-2.jpg"
+      ]
+    },
+    {
+      "product_id": "P1003",
+      "name": "Smartphone Case",
+      "category": "Accessories",
+      "description": "Durable and stylish case for iPhone 13 and 14 series.",
+      "price": 19.99,
+      "release_date": "2024-01-10",
+      "images": [
+        "https://example.com/images/smartphone-case-1.jpg",
+        "https://example.com/images/smartphone-case-2.jpg"
+      ]
+    }
+  ]

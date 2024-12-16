@@ -1,0 +1,49 @@
+.product-filter-bar form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-filter-bar-search {
+  display: flex;
+  align-items: center;
+  gap: var(--form-gap-sm);
+  border: solid 1px;
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.product-filter-bar-search input {
+  border: none;
+  width: 100%;
+}
+
+.product-filter-bar-search a {
+  outline: none;
+  transition: 0.2s;
+}
+
+.product-filter-bar-search a:focus,
+.product-filter-bar-search a:hover {
+  scale: 1.1;
+}
+
+.product-table-container {
+  margin-top: 1rem;
+  flex: 1;
+  border: solid 1rem var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+  .product-filter-bar form {
+    gap: var(--form-gap-sm);
+    flex-wrap: wrap;
+  }
+  .product-filter-bar > * {
+    flex: 1;
+  }
+
+  .product-filter-bar-search {
+    flex: 1;
+  }
+}

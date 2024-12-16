@@ -1,0 +1,110 @@
+.login * {
+  outline: none;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container-lhs {
+  height: 100vh;
+  width: 60%;
+}
+.login-container-lhs-image {
+  background-image: url("assets/images/loginsidebg.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-container-rhs {
+  padding-inline: 3rem;
+  height: 100vh;
+  width: 40%;
+  background-color: #dfebe985;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.login-container-rhs-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login-container-rhs-form h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.login-container-rhs-form label {
+  display: flex;
+  flex-direction: column;
+  padding-block: var(--form-spacing-md);
+}
+
+.login-container-rhs-form label input {
+  padding: var(--input-pad-md);
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.login-container-rhs-form a {
+  padding-block: var(--input-pad-md);
+  text-decoration: none;
+}
+
+.login-container-rhs-form a:focus {
+  text-decoration: underline;
+}
+
+.login-container-rhs-form input[type="submit"] {
+  width: 100%;
+  padding: var(--input-pad-md);
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(32, 73, 90);
+  color: white;
+  transition: 0.3s;
+}
+
+.login-container-rhs-form input[type="submit"]:focus {
+    background-color: rgb(42, 95, 117);  
+}
+.login-container-rhs-form input[type="submit"]:hover {
+  background-color: rgb(42, 95, 117);  
+}
+
+@media screen and (max-width: 786px) {
+  .login-container {
+    flex-direction: column;
+  }
+  .login-container-lhs {
+    height: 50vh;
+    width: 100vw;
+  }
+  .login-container-rhs {
+    height: 50vh;
+    width: 100vw;
+  }
+  .login-container-rhs-form a {
+    padding-block: var(--form-spacing-sm);
+  }
+  .login-container-rhs-form label {
+    padding-block: var(--form-spacing-sm);
+  }
+  .login-container-rhs-form input[type="submit"] {
+    padding: var(--input-pad-sm);
+  }
+  .login-container-rhs-form label input {
+    padding: var(--input-pad-sm);
+  }
+}

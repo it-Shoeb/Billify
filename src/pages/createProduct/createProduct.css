@@ -1,0 +1,6 @@
+.createProduct-form-cta-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: var(--input-pad-md);
+}
