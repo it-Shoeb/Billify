@@ -1,10 +1,10 @@
 import React from "react";
 import "./client.css";
 import { Link } from "react-router-dom";
-import ICONS from "../../components/assets";
 import Navbar from "../../components/Navbar";
 
 import data from "../../data/data.json";
+import ICONS from "../../components/assets";
 
 export default function Client() {
   return (

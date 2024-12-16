@@ -1,8 +1,9 @@
 import React from "react";
 import "./billCreate.css";
 import Navbar from "../../components/Navbar";
-import ICONS from "../../components/assets";
+
 import { Link } from "react-router-dom";
+import ICONS from "../../components/assets";
 
 export default function BillCreate() {
   const handleForm = (e) => {

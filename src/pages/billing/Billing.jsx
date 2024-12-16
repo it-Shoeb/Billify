@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./billing.css";
 import Navbar from "../../components/Navbar";
-import ICONS from "../../components/assets.jsx";
 import { Link } from "react-router-dom";
 
 import data from "../../data/data.json";
+import ICONS from "../../components/assets";
 
 export default function Billing() {
   const [currentdate, setCurrentDate] = useState(
