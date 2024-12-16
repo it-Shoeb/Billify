@@ -3,9 +3,10 @@ import "./product.css";
 
 import Navbar from "../../components/Navbar.jsx";
 import { Link } from "react-router-dom";
-import ICONS from "../../components/assets.jsx";
+
 
 import product from "../../data/product.json";
+import ICONS from "../../components/assets.jsx";
 
 export default function Product() {
   return (
