@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 import product from "../../data/product.json";
-import ICONS from "../../components/assets.jsx";
+import ICONS from "../../components/assets";
 
 export default function Product() {
   return (
