@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import ICONS from "./assets.jsx";
+// import ICONS from "./assets.jsx";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -27,42 +27,42 @@ export default function Navbar() {
                 className="navbar-uppernav-rhs-menubar"
                 onClick={() => toggleMenu()}
               >
-                <img className="menu show" src={ICONS.menu} alt="" />
+                {/* <img className="menu show" src={ICONS.menu} alt="" /> */}
               </div>
             </div>
           </div>
 
           <div className={`navbar-lowernav ${menu ? "show" : null}`}>
             <div className="navbar-lower-lhs">
-                <img className="close hide" src={ICONS.close} alt="" onClick={() => toggleMenu()}/>
+                {/* <img className="close hide" src={ICONS.close} alt="" onClick={() => toggleMenu()}/> */}
               <ul>
                 <li>
                   <Link to="/overview">
-                    <img src={ICONS.overview} alt="" />
+                    {/* <img src={ICONS.overview} alt="" /> */}
                     Overview
                   </Link>
                 </li>
                 <li>
                   <Link to="/billing">
-                    <img src={ICONS.billing} alt="" />
+                    {/* <img src={ICONS.billing} alt="" /> */}
                     Billing
                   </Link>
                 </li>
                 <li>
                   <Link to="/client">
-                    <img src={ICONS.client} alt="" />
+                    {/* <img src={ICONS.client} alt="" /> */}
                     Client
                   </Link>
                 </li>
                 <li>
                   <Link to="/product">
-                    <img src={ICONS.product} alt="" />
+                    {/* <img src={ICONS.product} alt="" /> */}
                     Product
                   </Link>
                 </li>
                 <li>
                   <Link to="/report">
-                    <img src={ICONS.report} alt="" />
+                    {/* <img src={ICONS.report} alt="" /> */}
                     Report
                   </Link>
                 </li>
@@ -73,7 +73,7 @@ export default function Navbar() {
               <ul>
                 <li>
                   <Link to="/assistant">
-                    <img src={ICONS.assistant} alt="" />
+                    {/* <img src={ICONS.assistant} alt="" /> */}
                     Assistant
                   </Link>
                 </li>
