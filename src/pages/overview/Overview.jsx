@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar";
 import "./overview.css";
 
-import data from "../../../../data.json";
+import data from "../../data/data.json";
 import { Link } from "react-router-dom";
 
 export default function Overview() {

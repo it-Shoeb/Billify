@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar";
 import ICONS from "../../components/assets.jsx";
 import { Link } from "react-router-dom";
 
-import data from "../../../../data.json";
+import data from "../../data/data.json";
 
 export default function Billing() {
   const [currentdate, setCurrentDate] = useState(

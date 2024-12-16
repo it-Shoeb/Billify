@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar.jsx";
 import { Link } from "react-router-dom";
 import ICONS from "../../components/assets.jsx";
 
-import product from "../../../../product.json";
+import product from "../../data/product.json";
 
 export default function Product() {
   return (
